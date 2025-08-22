@@ -744,7 +744,7 @@
                                 ⭐ ${record.score}点 | 
                                 ✅ ${record.correctAnswers}問正解 | 
                                 🎯 ${record.accuracy}% | 
-                                📅 ${record.date}
+                                📅 ${new Date(record.timestamp).toLocaleString('ja-JP')}
                             </div>
                         </div>
                     </div>
@@ -800,5 +800,6 @@
 </script>
 </body>
 </html>
+
 
 
